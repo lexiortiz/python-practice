@@ -9,6 +9,8 @@
 # Understand and use string concatenation and string interpolation.
 # Identify and debug simple syntax errors.
 
+
+# Variables and Assignment
 # problem 1.1
 x = 5
 # what value does x now hold?
@@ -121,3 +123,96 @@ zz = 17
 hh = zz % 3
 # what value does hh now hold?
 2
+
+
+# Operators
+d = 10
+e = 5.0
+f = 2
+g = 11.0
+h = 3
+i = 1.5
+
+# problem 2.1
+d + e = 15.0 
+# float 
+
+# problem 2.2 
+f + h = 5 
+# int
+
+# problem 2.3
+g + h = 14.0
+# float
+
+# problem 2.4
+d - f = 8
+# int
+
+# problem 2.5
+g - e = 16.0
+# float
+
+# problem 2.6
+(h + i) - f	= 2.5
+# float
+
+# problem 2.7 
+(d - f) + e	= 13.0
+# float
+
+# problem 2.8
+d * f = 20
+# int
+
+# problem 2.9
+g * i = 16.5
+# float
+
+# problem 2.10
+f * g = 22.0 
+# float
+
+# problem 2.11
+d / f = 5.0
+# float
+
+# problem 2.12
+d / e = 2.0
+# float
+
+# problem 2.13
+e / f = 2.5
+# float
+
+# problem 2.14 
+(g * f) / f = 11.0
+# float
+
+# problem 2.15
+(d / f) * e	= 25.0
+# float
+
+# problem 2.16
+21 / 5 = 4.2
+# float
+
+# problem 2.17
+14 / 5 = 2.8
+# float
+
+# problem 2.18
+10 % 3 = 1
+# int
+
+# problem 2.19
+20 % 2 = 0
+# int
+
+# problem 2.20			
+4 % 5 = 4
+# int
+		
+# problem 2.21
+8 % 1 = 0
+# int
