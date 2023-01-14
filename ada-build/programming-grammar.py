@@ -138,81 +138,137 @@ d + e = 15.0
 # float 
 
 # problem 2.2 
-f + h = 5 
+# f + h = 5 
 # int
 
 # problem 2.3
-g + h = 14.0
+# g + h = 14.0
 # float
 
 # problem 2.4
-d - f = 8
+# d - f = 8
 # int
 
 # problem 2.5
-g - e = 16.0
+# g - e = 16.0
 # float
 
 # problem 2.6
-(h + i) - f	= 2.5
+# (h + i) - f	= 2.5
 # float
 
 # problem 2.7 
-(d - f) + e	= 13.0
+# (d - f) + e	= 13.0
 # float
 
 # problem 2.8
-d * f = 20
+# d * f = 20
 # int
 
 # problem 2.9
-g * i = 16.5
+# g * i = 16.5
 # float
 
 # problem 2.10
-f * g = 22.0 
+# f * g = 22.0 
 # float
 
 # problem 2.11
-d / f = 5.0
+# d / f = 5.0
 # float
 
 # problem 2.12
-d / e = 2.0
+# d / e = 2.0
 # float
 
 # problem 2.13
-e / f = 2.5
+# e / f = 2.5
 # float
 
 # problem 2.14 
-(g * f) / f = 11.0
+# (g * f) / f = 11.0
 # float
 
 # problem 2.15
-(d / f) * e	= 25.0
+# (d / f) * e	= 25.0
 # float
 
 # problem 2.16
-21 / 5 = 4.2
+# 21 / 5 = 4.2
 # float
 
 # problem 2.17
-14 / 5 = 2.8
+# 14 / 5 = 2.8
 # float
 
 # problem 2.18
-10 % 3 = 1
+# 10 % 3 = 1
 # int
 
 # problem 2.19
-20 % 2 = 0
+# 20 % 2 = 0
 # int
 
 # problem 2.20			
-4 % 5 = 4
+# 4 % 5 = 4
 # int
 		
 # problem 2.21
-8 % 1 = 0
+# 8 % 1 = 0
 # int
+
+
+
+# Strings
+# problem 3.1
+my_string = "I love Seattle"
+my_string[7] # S
+
+# problem 3.2
+my_string = "I love Seattle"
+my_string[2:4] # lo
+
+# problem 3.3
+my_string = "Ada"
+my_string += " Lovelace"
+# I love Seattle Lovelace
+
+# problem 3.4
+my_string = "Ada"
+my_string += " codes" + " it!"
+# Ada codes it!
+
+# problem 3.5
+my_string = "Ada"
+(my_string + " likes to code")[4:9]
+# likes
+
+# problem 3.6
+my_string = "Hello world"
+"Goodbye " + my_string[6:11] + "!"
+# Goodbye world!
+
+# problem 3.7
+my_string = "Hello world!"
+my_string[0:5] + ", goodbye!"
+# Hello, goodbye!
+
+# problem 3.8
+my_string = "Hello world!"
+my_string[:1] + "i" + "!"
+# Hi!
+
+# problem 3.9
+my_string = "I love Python"
+my_string[7:13] + my_string[2:6] + my_string[0]
+# PythonloveI
+
+# problem 3.10
+my_string = "I love Python"
+"P" + my_string[8:13] + " rocks!"
+# Python rocks!
+
+# problem 3.11
+my_string = "I love Python"
+my_string[2:6] + my_string[7:13] + my_string[2:6]
+# lovePythonlove
