@@ -18,8 +18,7 @@
         # Yes -> player1 won
         # No ->  player2 won
 
-player1 = 'rock'
-player2 = 'paper'
+def rps(player1, player2):
 
 if player1 == player2:
     print('It\'s a tie!')
@@ -38,3 +37,5 @@ elif player1 == "scissors":
         print('Player 1 won!')
     else:
          print('Player 2 won!')
+
+rps('rock', 'paper')
